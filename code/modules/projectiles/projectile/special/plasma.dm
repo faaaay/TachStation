@@ -2,12 +2,12 @@
 	name = "plasma blast"
 	icon_state = "plasmacutter"
 	damage_type = BRUTE
-	damage = 25
+	damage = 20
 	range = 17
-	dismemberment = 55
+	dismemberment = 30
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/purple_laser
 	var/pressure_decrease_active = FALSE
-	var/pressure_decrease = 0.25
+	var/pressure_decrease = 0.15
 	var/mine_range = 3 //mines this many additional tiles of rock
 	tracer_type = /obj/effect/projectile/tracer/plasma_cutter
 	muzzle_type = /obj/effect/projectile/muzzle/plasma_cutter
@@ -32,10 +32,10 @@
 			return -1
 
 /obj/item/projectile/plasma/adv
-	damage = 35
+	damage = 30
 	range = 37
 	mine_range = 37
-	dismemberment = 70
+	dismemberment = 35
 /obj/item/projectile/plasma/adv/mech
 	damage = 50
 	range = 40
