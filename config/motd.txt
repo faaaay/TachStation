@@ -1,0 +1,7 @@
+<!-- Most valid html will work in here, excluding images. -->
+
+<h1>Welcome to Space Station 13!</h1>
+<h3>Kinaris Co. Tachanka Division welcomes you.</h3>
+
+<i>This server is running a custom-built Hyper Station 13 build.</i>
+<i>feel free to ask ping us on discord at <a href="https://discord.gg/XnR6AfA">tachanka's troopers!</a></i>
