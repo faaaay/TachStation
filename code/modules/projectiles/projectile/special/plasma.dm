@@ -2,9 +2,9 @@
 	name = "plasma blast"
 	icon_state = "plasmacutter"
 	damage_type = BRUTE
-	damage = 20
-	range = 4
-	dismemberment = 20
+	damage = 25
+	range = 17
+	dismemberment = 55
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/purple_laser
 	var/pressure_decrease_active = FALSE
 	var/pressure_decrease = 0.25
@@ -32,18 +32,18 @@
 			return -1
 
 /obj/item/projectile/plasma/adv
-	damage = 28
-	range = 5
-	mine_range = 5
-
+	damage = 35
+	range = 37
+	mine_range = 37
+	dismemberment = 70
 /obj/item/projectile/plasma/adv/mech
-	damage = 40
-	range = 9
-	mine_range = 3
+	damage = 50
+	range = 40
+	mine_range = 55
 
 /obj/item/projectile/plasma/turret
 	//Between normal and advanced for damage, made a beam so not the turret does not destroy glass
 	name = "plasma beam"
-	damage = 24
+	damage = 60
 	range = 7
 	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
