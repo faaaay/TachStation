@@ -568,8 +568,13 @@
 		"ethanol",
 		"fernet"
 	)
-	upgrade_reagents2 = null
-	upgrade_reagents3 = null
+	upgrade_reagents2 = list(
+		"uranium",
+		"gargle_blaster"
+	)
+	upgrade_reagents3 = list(
+		"lizardwine"
+	)
 	emagged_reagents = list(
 		"iron",
 		"alexander",
@@ -609,38 +614,28 @@
 /obj/machinery/chem_dispenser/mutagensaltpeter
 	name = "botanical chemical dispenser"
 	desc = "Creates and dispenses chemicals useful for botany."
-	flags_1 = NODECONSTRUCT_1
 
 	dispensable_reagents = list(
-		"mutagen",
-		"saltpetre",
 		"eznutriment",
-		"left4zednutriment",
-		"robustharvestnutriment",
 		"water",
 		"plantbgone",
 		"weedkiller",
-		"pestkiller",
-		"cryoxadone",
-		"ammonia",
-		"ash",
-		"diethylamine")
+		"pestkiller"
+		)
 	//same as above.
-	upgrade_reagents = null
-	upgrade_reagents2 = null
+	upgrade_reagents = list(
+		"left4zednutriment",
+		"robustharvestnutriment",
+		"ash"
+		)
+	upgrade_reagents2 = list(
+		"mutagen",
+		"saltpetre",
+		"ammonia",
+		"cryoxadone",
+		"diethylamine"
+	)
 	upgrade_reagents3 = null
-
-/obj/machinery/chem_dispenser/mutagensaltpeter/Initialize()
-	. = ..()
-	component_parts = list()
-	component_parts += new /obj/item/circuitboard/machine/chem_dispenser(null)
-	component_parts += new /obj/item/stock_parts/matter_bin/bluespace(null)
-	component_parts += new /obj/item/stock_parts/matter_bin/bluespace(null)
-	component_parts += new /obj/item/stock_parts/capacitor/quadratic(null)
-	component_parts += new /obj/item/stock_parts/manipulator/femto(null)
-	component_parts += new /obj/item/stack/sheet/glass(null)
-	component_parts += new /obj/item/stock_parts/cell/bluespace(null)
-	RefreshParts()
 
 /obj/machinery/chem_dispenser/fullupgrade //fully ugpraded stock parts, emagged
 	desc = "Creates and dispenses chemicals. This model has had its safeties shorted out."

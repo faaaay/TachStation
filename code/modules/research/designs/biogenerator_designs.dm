@@ -25,6 +25,30 @@
 	materials = list(MAT_BIOMASS = 100)
 	build_path = /obj/item/reagent_containers/food/condiment/milk
 	category = list("initial","Food")
+	
+/datum/design/rice_carton
+	name = "Bag of Rice"
+	id = "ricebag"
+	build_type = BIOGENERATOR
+	materials = list(MAT_BIOMASS = 100)
+	build_path = /obj/item/reagent_containers/food/condiment/rice
+	category = list("initial","Food")
+	
+/datum/design/soysauce
+	name = "Soysauce Packet"
+	id = "soysauce"
+	build_type = BIOGENERATOR
+	materials = list(MAT_BIOMASS = 25)
+	build_path = /obj/item/reagent_containers/food/condiment/pack/soysauce
+	category = list("initial","Food")
+	
+/datum/design/bbqsauce
+	name = "BBQ Sauce Packet"
+	id = "bbqsauce"
+	build_type = BIOGENERATOR
+	materials = list(MAT_BIOMASS = 25)
+	build_path = /obj/item/reagent_containers/food/condiment/pack/bbqsauce
+	category = list("initial","Food")
 
 /datum/design/cream_carton
 	name = "Cream Carton"
@@ -57,6 +81,22 @@
 	build_type = BIOGENERATOR
 	materials = list(MAT_BIOMASS = 250)
 	build_path = /obj/item/reagent_containers/food/snacks/monkeycube
+	category = list("initial", "Food")
+
+/datum/design/seaweed
+	name = "Seaweed"
+	id = "seaweed"
+	build_type = BIOGENERATOR
+	materials = list(MAT_BIOMASS = 100)
+	build_path = /obj/item/reagent_containers/food/snacks/sea_weed
+	category = list("initial", "Food")
+
+/datum/design/carpmeat
+	name = "Synthetic Carpmeat"
+	id = "carpmeat"
+	build_type = BIOGENERATOR
+	materials = list(MAT_BIOMASS = 250)
+	build_path = /obj/item/reagent_containers/food/snacks/carpmeat/imitation
 	category = list("initial", "Food")
 
 /datum/design/smeat
@@ -145,6 +185,14 @@
 	build_type = BIOGENERATOR
 	materials = list(MAT_BIOMASS = 300)
 	build_path = /obj/item/storage/belt/security
+	category = list("initial","Organic Materials")
+
+/datum/design/toolbelt
+	name = "Toolbelt"
+	id = "toolbelt"
+	build_type = BIOGENERATOR
+	materials = list(MAT_BIOMASS = 300)
+	build_path = /obj/item/storage/belt/utility
 	category = list("initial","Organic Materials")
 
 /datum/design/medbelt
