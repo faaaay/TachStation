@@ -3,7 +3,7 @@
 	icon_state = "plasmacutter"
 	damage_type = BRUTE
 	damage = 25
-	range = 17
+	range = 15
 	dismemberment = 30
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/purple_laser
 	var/pressure_decrease_active = FALSE
@@ -33,8 +33,8 @@
 
 /obj/item/projectile/plasma/adv
 	damage = 30
-	range = 37
-	mine_range = 37
+	range = 15
+	mine_range = 15
 	dismemberment = 35
 /obj/item/projectile/plasma/adv/mech
 	damage = 50
