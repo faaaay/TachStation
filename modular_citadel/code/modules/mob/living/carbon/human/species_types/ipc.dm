@@ -8,6 +8,7 @@
 	sexes = 0
 	species_traits = list(MUTCOLORS,NOEYES,NOTRANSSTING)
 	inherent_traits = list(TRAIT_VIRUSIMMUNE,TRAIT_NOBREATH)
+	mutant_organs = list(/obj/item/organ/cyberimp/arm/power_cord)
 	burnmod = 2
 	inherent_biotypes = list(MOB_ROBOTIC, MOB_HUMANOID)
 	mutant_bodyparts = list("ipc_screen", "ipc_antenna")
