@@ -7,10 +7,12 @@
 	blacklisted = 0
 	sexes = 0
 	species_traits = list(MUTCOLORS,NOEYES,NOTRANSSTING)
+	inherent_traits = list(TRAIT_VIRUSIMMUNE,TRAIT_NOBREATH)
+	burnmod = 2
 	inherent_biotypes = list(MOB_ROBOTIC, MOB_HUMANOID)
 	mutant_bodyparts = list("ipc_screen", "ipc_antenna")
 	default_features = list("ipc_screen" = "Blank", "ipc_antenna" = "None")
-	meat = /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/ipc
+	meat = null
 	gib_types = list(/obj/effect/gibspawner/ipc, /obj/effect/gibspawner/ipc/bodypartless)
 	mutanttongue = /obj/item/organ/tongue/robot/ipc
 	mutant_heart = /obj/item/organ/heart/ipc
@@ -18,10 +20,14 @@
 	mutantliver = /obj/item/organ/liver/ipc
 	mutantstomach = /obj/item/organ/stomach/ipc
 	mutanteyes = /obj/item/organ/eyes/ipc
+	var/list/initial_inherent_traits = list(TRAIT_VIRUSIMMUNE,TRAIT_NOBREATH)
 
 	exotic_bloodtype = "HF"
 
 	var/datum/action/innate/monitor_change/screen
+
+/datum/species/ipc/after_equip_job(datum/job/J, mob/living/carbon/human/H)
+	H.grant_language(/datum/language/drone)
 
 /datum/species/ipc/on_species_gain(mob/living/carbon/human/C)
 	C.grant_language(/datum/language/machine)
