@@ -25,6 +25,14 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SERVICE
 	category = list ("Misc. Machinery")
 
+/datum/design/board/botanical_dispenser
+	name = "Machine Design (Portable botanical Dispenser Board)"
+	desc = "The circuit board for a portable botanical dispenser."
+	id = "botany_dispenser"
+	build_path = /obj/item/circuitboard/machine/chem_dispenser/mutagensaltpeter
+	departmental_flags = DEPARTMENTAL_FLAG_SERVICE
+	category = list ("Misc. Machinery")
+
 /datum/design/board/beer_dispenser
 	name = "Machine Design (Portable Booze Dispenser Board)"
 	desc = "The circuit board for a portable booze dispenser."

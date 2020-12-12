@@ -70,6 +70,15 @@
 	tastes = list("meat" = 1)
 	foodtype = JUNKFOOD | MEAT | GROSS | FRIED | BREAKFAST
 
+/obj/item/reagent_containers/food/snacks/donut/cinnamon_roll
+    name = "Cinnamon Roll"
+    desc = "It's too rich to eat every day, but you do anyways."
+    icon_state = "cinnamon"
+    bonus_reagents = list("sugar" = 5)
+    list_reagents = list("nutriment" = 3)
+    tastes = list("sugary cinnamon" = 2, "dough" = 1)
+    foodtype = JUNKFOOD | BREAKFAST
+
 /obj/item/reagent_containers/food/snacks/donut/berry
 	name = "pink donut"
 	desc = "Goes great with a soy latte."
@@ -140,17 +149,6 @@
 	tastes = list("donut" = 3, "matcha" = 1)
 	is_decorated = TRUE
 	filling_color = "#879630"
-
-/obj/item/reagent_containers/food/snacks/donut/semen
-	name = "\"cream\" donut"
-	desc = "That cream looks a little runny..."
-	icon_state = "donut_cum"
-	bitesize = 10
-	bonus_reagents = list("semen" = 1)
-	list_reagents = list("nutriment" = 3, "sugar" = 2, "semen" = 5)
-	filling_color = "#FFFFFF"
-	tastes = list("donut" = 1, "salt" = 3)
-	foodtype = JUNKFOOD | GRAIN | FRIED | SUGAR
 
 //////////////////////JELLY DONUTS/////////////////////////
 
