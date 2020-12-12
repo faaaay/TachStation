@@ -264,14 +264,14 @@
 	user.changeNext_move(CLICK_CD_MELEE)
 	var/obj/machinery/power/apc/A = target
 	var/mob/living/carbon/human/H = user
-	var/obj/item/organ/stomach/robot_ipc/cell = locate(/obj/item/organ/stomach/ipc) in H.internal_organs
-	if(A.cell && A.cell.charge > 0)
-		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
-			to_chat(user, "<span class='warning'>You are already fully charged!</span>")
-			return
-		else
-			powerdraw_loop(A, H)
-			return
+//	var/obj/item/organ/stomach/robot_ipc/cell = locate(/obj/item/organ/stomach/ipc) in H.internal_organs
+//	if(A.cell && A.cell.charge > 0)
+//		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
+//			to_chat(user, "<span class='warning'>You are already fully charged!</span>")
+//			return
+//		else
+//			powerdraw_loop(A, H)
+//			return
 
 	to_chat(user, "<span class='warning'>There is no charge to draw from that APC.</span>")
 
