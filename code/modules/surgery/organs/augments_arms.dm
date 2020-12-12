@@ -262,8 +262,8 @@
 	if(!istype(target, /obj/machinery/power/apc) || !ishuman(user) || !proximity_flag)
 		return ..()
 	user.changeNext_move(CLICK_CD_MELEE)
-	var/obj/machinery/power/apc/A = target
-	var/mob/living/carbon/human/H = user
+//	var/obj/machinery/power/apc/A = target
+//	var/mob/living/carbon/human/H = user
 //	var/obj/item/organ/stomach/robot_ipc/cell = locate(/obj/item/organ/stomach/ipc) in H.internal_organs
 //	if(A.cell && A.cell.charge > 0)
 //		if(H.nutrition >= NUTRITION_LEVEL_WELL_FED)
