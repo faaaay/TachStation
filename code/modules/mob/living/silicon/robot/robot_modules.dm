@@ -95,8 +95,6 @@
 		)
 	//Basically a blacklist for any subtypes above we dont want
 	var/list/cannot_hold = list(
-		/obj/item/stack/sheet/mineral/plasma,
-		/obj/item/stack/sheet/plasteel
 		)
 
 	var/obj/item/wrapped = null // Item currently being held.
@@ -552,6 +550,7 @@
 		/obj/item/extinguisher/mini,
 		/obj/item/borg/cyborghug,
 		/obj/item/soap/nanotrasen,
+		/obj/item/taperecorder,
 		/obj/item/crowbar/cyborg,
 		/obj/item/weapon/gripper/security,
 		/obj/item/pinpointer/crew)

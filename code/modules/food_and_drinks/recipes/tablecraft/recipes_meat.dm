@@ -61,7 +61,26 @@
 	)
 	result = /obj/item/reagent_containers/food/snacks/cornedbeef
 	subcategory = CAT_MEAT
-
+	
+	/datum/crafting_recipe/food/chicken_risotto
+    name = "Chicken Risotto"
+    reqs = list(
+        /obj/item/reagent_containers/food/snacks/meat/carp fillet = 1,
+        /obj/item/reagent_containers/food/snacks/grown/rice = 10,
+        /obj/item/reagent_containers/food/snacks/butter = 1
+    )
+    result = /obj/item/reagent_containers/food/snacks/chicken_risotto
+    subcategory = CAT_MEAT
+	
+/datum/crafting_recipe/food/sheperds_pie
+    name = "Sheperd's Pie"
+    reqs = list(
+        /obj/item/reagent_containers/food/snacks/meat/steak = 1,
+        /obj/item/reagent_containers/food/snacks/grown/potato = 1,
+        /obj/item/reagent_containers/food/snacks/grown/corn = 1
+    )
+    result = /obj/item/reagent_containers/food/snacks/sheperds_pie
+    subcategory = CAT_MEAT
 /datum/crafting_recipe/food/bearsteak
 	name = "Filet migrawr"
 	reqs = list(

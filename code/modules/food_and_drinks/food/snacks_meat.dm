@@ -93,6 +93,27 @@
 
 ////////////////////////////////////////////MEATS AND ALIKE////////////////////////////////////////////
 
+/obj/item/reagent_containers/food/snacks/chicken_risotto
+    name = "Chicken Risotto"
+    desc = "Extremely Creamy And Tasty With Lots Of Spices!"
+    icon_state = "chicken_risotto"
+    trash = /obj/item/trash/plate
+    bonus_reagents = list("nutriment" = 1, "vitamin" = 4)
+    list_reagents = list("nutriment" = 5)
+    tastes = list("'chicken'" = 1, "rice" = 1, "broth" = 2)
+    foodtype = MEAT | GRAIN
+	
+	/obj/item/reagent_containers/food/snacks/sheperds_pie
+    name = "sheperd's pie"
+    desc = "Finally, it's not that store-bought trash!"
+    icon_state = "sheperds_pie"
+    trash = /obj/item/trash/plate
+    bonus_reagents = list("nutriment" = 1, "vitamin" = 4)
+    list_reagents = list("nutriment" = 5)
+    tastes = list("meat" = 1, "corn" = 1,  "mashed potatoes" = 1)
+    foodtype = MEAT | VEGETABLES
+    foodtype = MEAT
+
 /obj/item/reagent_containers/food/snacks/tofu
 	name = "tofu"
 	desc = "We all love tofu."

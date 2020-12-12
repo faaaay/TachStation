@@ -150,6 +150,21 @@
 	update_icon()
 
 
+/obj/item/taperecorder/verb/reset()
+	set name = "Reset Tape"
+	set category = "Object"
+
+	if(!can_use(usr))
+		return
+	if(!mytape || mytape.ruined)
+		return
+	if(recording)
+		return
+	if(playing)
+		return
+	mytape.storedinfo = list()
+	mytape.timestamp = list()
+		
 /obj/item/taperecorder/verb/play()
 	set name = "Play Tape"
 	set category = "Object"
