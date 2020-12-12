@@ -103,7 +103,7 @@
     tastes = list("'chicken'" = 1, "rice" = 1, "broth" = 2)
     foodtype = MEAT | GRAIN
 	
-	/obj/item/reagent_containers/food/snacks/sheperds_pie
+/obj/item/reagent_containers/food/snacks/sheperds_pie
     name = "sheperd's pie"
     desc = "Finally, it's not that store-bought trash!"
     icon_state = "sheperds_pie"
