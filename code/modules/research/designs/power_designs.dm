@@ -57,6 +57,17 @@
 	category = list("Misc","Power Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
 
+/datum/design/bluespace_cell_reactor
+	name = "Bluespace Reactor Cell"
+	desc = "A reactor tightly fitted in a small bluespace pocket dimension, sitting in a cell. Do not eat."
+	id = "reactor_cell"
+	build_type = PROTOLATHE | MECHFAB
+	materials = list(MAT_METAL = 800, MAT_GOLD = 120, MAT_GLASS = 160, MAT_DIAMOND = 160, MAT_TITANIUM = 300, MAT_BLUESPACE = 100)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/upgraded/plus/reactor
+	category = list("Misc","Power Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
+
 /datum/design/inducer
 	name = "Inducer"
 	desc = "The NT-75 Electromagnetic Power Inducer can wirelessly induce electric charge in an object, allowing you to recharge power cells without having to remove them."
