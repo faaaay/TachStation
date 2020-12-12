@@ -66,7 +66,7 @@
 	name = "Chicken Risotto"
 	reqs = list(
 		/obj/item/reagent_containers/food/snacks/carpmeat = 1,
-		/obj/item/reagent_containers/food/snacks/grown/rice = 10,
+		/datum/reagent/consumable/rice = 10,
 		/obj/item/reagent_containers/food/snacks/butter = 1
 	)
 	result = /obj/item/reagent_containers/food/snacks/chicken_risotto
