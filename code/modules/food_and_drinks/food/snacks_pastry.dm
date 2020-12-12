@@ -70,6 +70,15 @@
 	tastes = list("meat" = 1)
 	foodtype = JUNKFOOD | MEAT | GROSS | FRIED | BREAKFAST
 
+/obj/item/reagent_containers/food/snacks/cinnamon_rolls
+    name = "Cinnamon Roll"
+    desc = "It's too rich to eat every day, but you do anyways."
+    icon_state = "cinnamon"
+    bonus_reagents = list("sugar" = 5)
+    list_reagents = list("nutriment" = 3)
+    tastes = list("sugary cinnamon = 2, "dough" = 1)
+    foodtype = JUNKFOOD | BREAKFAST
+
 /obj/item/reagent_containers/food/snacks/donut/berry
 	name = "pink donut"
 	desc = "Goes great with a soy latte."

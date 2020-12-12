@@ -11,6 +11,16 @@
 	)
 	result = /obj/item/reagent_containers/food/snacks/donut/plain
 	subcategory = CAT_PASTRY
+	
+/datum/crafting_recipe/food/cinnamon_rolls
+    time = 40
+    name = "Cinnamon Roll"
+    reqs = list(
+        /datum/reagent/consumable/sugar = 5,
+        /obj/item/reagent_containers/food/snacks/pastrybase = 1
+    )
+    result = /obj/item/reagent_containers/food/snacks/cinnamon_roll
+    subcategory = CAT_PASTRY
 
 /datum/crafting_recipe/food/donut/chaos
 	name = "Chaos donut"
