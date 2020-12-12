@@ -11,7 +11,7 @@
 // Hides
 
 /datum/export/stack/leather
-	cost = `60
+	cost = 60
 	unit_name = "leather"
 	export_types = list(/obj/item/stack/sheet/leather)
 

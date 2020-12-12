@@ -12,13 +12,13 @@
 /datum/supply_pack/materials/cardboard50
 	name = "50 Cardboard Sheets"
 	desc = "Create a bunch of boxes."
-	cost = 12600
+	cost = 1000
 	contains = list(/obj/item/stack/sheet/cardboard/fifty)
 	crate_name = "cardboard sheets crate"
 /datum/supply_pack/materials/minersupply
 	name = "metal sample kit"
 	desc = "when there is no one to dig and you need that hand drill."
-	cost = 
+	cost = 12600
 	contains = list(/obj/item/stack/sheet/mineral/gold/five,
 	/obj/item/stack/sheet/mineral/diamond/five,
 	/obj/item/stack/sheet/mineral/uranium/five,
