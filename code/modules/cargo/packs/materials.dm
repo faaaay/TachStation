@@ -15,7 +15,18 @@
 	cost = 1000
 	contains = list(/obj/item/stack/sheet/cardboard/fifty)
 	crate_name = "cardboard sheets crate"
-
+/datum/supply_pack/materials/minersupply
+	name = "metal sample kit"
+	desc = "when there is no one to dig and you need that hand drill."
+	cost = 12600
+	contains = list(/obj/item/stack/sheet/mineral/gold/five,
+	/obj/item/stack/sheet/mineral/diamond/five,
+	/obj/item/stack/sheet/mineral/uranium/five,
+	/obj/item/stack/sheet/mineral/silver/ten,
+	/obj/item/stack/sheet/mineral/plasma/thirty,
+	/obj/item/stack/sheet/mineral/titanium/fifty,
+	/obj/item/stack/sheet/mineral/abductor
+	)
 /datum/supply_pack/materials/glass50
 	name = "50 Glass Sheets"
 	desc = "Let some nice light in with fifty glass sheets!"
